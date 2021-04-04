@@ -1,4 +1,4 @@
-# HolbertonHex School #
+# Holberton School #
 ## C Coding ##
 ### [0x00. C - Hello, World][1] ###
 * How to compile using gcc
