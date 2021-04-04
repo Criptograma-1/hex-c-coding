@@ -8,8 +8,8 @@ int main(void)
 {
 	char alfabeto;
 
-	for(alfabeto = 'a' ; alfabeto <= 'z'; alfabeto++)
-		putchar(alfabeto);
-	putchar('\n');
+	for (alfabeto = 'a' ; alfabeto <= 'z'; alfabeto++)
+		putchar (alfabeto);
+	putchar ('\n');
 	return (0);
 }
