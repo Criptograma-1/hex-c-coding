@@ -7,7 +7,7 @@
 * How to read the error messages
 #### Tasks ####
 0. [Multiple mains][1] (`0-main.c, holberton.h`): 
-* In most projects, we often give you only one main file to test with. For example, this main file is a test for a `postitive_or_negative()` function similar to the one you worked with in an [earlier C project][5]
+* Create a file named `0-main.c`. This file must test that the function `positive_or_negative()` gives the correct output when given a case of `0`.
 1. [Like, comment, subscribe][2] (`1-main.c`): 
 * Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 2. [0 > 972?][3] (`2-largest_number.c, holberton.h`): 
