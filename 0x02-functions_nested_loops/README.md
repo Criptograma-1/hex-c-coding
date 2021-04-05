@@ -20,6 +20,12 @@
 * Write a function that prints the last digit of a number.
 8. [I'm federal agent Jack Bauer, and today is the longest day of my life][9] (`8-24_hours.c`): 
 * Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+9. [Learn your times table][10] (`9-times_table.c`): 
+* Write a function that prints the 9 times table, starting with 0.
+10. [a + b][11] (`10-add.c`): 
+* Write a function that adds two integers and returns the result.
+11. [Holberton School, 98 Battery Street, the OG][12] (`11-print_to_98.c`): 
+* Write a function that prints all natural numbers from n to 98, followed by a new line.
 
 [1]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/0-holberton.c 
 [2]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/1-alphabet.c
@@ -30,3 +36,6 @@
 [7]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/6-abs.c 
 [8]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/7-print_last_digit.c 
 [9]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/8-24_hours.c
+[10]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/9-times_table.c
+[11]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/10-add.c
+[12]: https://github.com/Criptograma-1/hex-c-coding/tree/main/0x02-functions_nested_loops/11-print_to_98.c
