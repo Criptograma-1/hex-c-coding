@@ -20,13 +20,39 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-	int i, len, tmp;
-
-	len = _strlen(s) - 1;
-	for (i = 0; i < (len / 2); i++)
+	if (*s)
 	{
-		tmp = s[i];
-		s[i] = s[len - i];
-		s[len - i] = tmp;
+		unsigned char s0, s1;
+		char *p;
+		unsigned int i = 0;
+
+		p = s;
+		s0 = s1 = 1;
+
+		while (s0)
+		{
+			if (s1 == 1)
+			{
+				i = _strlen(s);
+				s1 += 1;
+			}
+			else if (s1 == 2)
+			{
+				p += (i - 1);
+				s1 = 0;
+			}
+			else if (s < p)
+			{
+				int temp = *s;
+				*s = *p;
+				*p = temp;
+				p--;
+				s++;
+			}
+			else
+				s0 = 0;
+		}
 	}
+	else
+		return;
 }
