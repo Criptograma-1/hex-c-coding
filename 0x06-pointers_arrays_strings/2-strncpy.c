@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _srtncat - a function that copies a strings
+* _strncpy - a function that copies a strings
 * @dest: A pointer to the string
 * @src: String to be copie
 * @n: concatenates caracters
@@ -9,12 +9,11 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
-
 	j = 0;
 
-        while (*(src + j) != '\0' && n > j)
+	while (*(src + j) != '\0' && n > j)
 	{
-               *(dest + j) = *(src + j);
+		*(dest + j) = *(src + j);
 		j++;
 	}
 	while (n > j)
