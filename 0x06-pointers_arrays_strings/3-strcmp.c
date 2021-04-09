@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
 * _strcmp - a function that compares two strings.
-* @s1 - first string
-* @s2 - second string
-* return: s1-s2
+* @s1: first string
+* @s2: second string
+* Return: + if >, - if < and 0 if =
 */
 int _strcmp(char *s1, char *s2)
 {
