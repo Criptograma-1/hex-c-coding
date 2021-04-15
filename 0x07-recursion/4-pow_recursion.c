@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _pow_recursion - function that returns the value of x raised to the power of y
+* _pow_recursion - function that returns the value of x raised to y
 * @x: a number
 * @y: a number
 * Return: x raised to y, if x<0 return -1
