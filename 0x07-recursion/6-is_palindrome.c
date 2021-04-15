@@ -8,7 +8,7 @@ int strlen_1(char *s)
 {
 	if (*s == '\0')
 	{
-		return(0);
+		return (0);
 	}
 	return (1 + strlen_1(s + 1));
 }
@@ -27,7 +27,7 @@ int check_palindrome(char *s, int b, int e)
 	}
 	else if (b >= e)
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
