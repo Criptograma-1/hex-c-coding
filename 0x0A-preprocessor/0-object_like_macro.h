@@ -1,2 +1,2 @@
-#ifndf SIZE
+#ifndef SIZE
 #define SIZE 1024
