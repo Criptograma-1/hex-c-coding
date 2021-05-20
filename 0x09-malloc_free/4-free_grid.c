@@ -4,7 +4,7 @@
 /**
 * free_grid - frees a 2 dimensional grid
 * @grid: grids
-* @heigt: grid size
+* @height: grid size
 *
 * Return: void
 */
