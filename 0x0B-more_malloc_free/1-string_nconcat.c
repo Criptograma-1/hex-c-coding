@@ -2,10 +2,10 @@
 
 /**
 * string_nconcat - a function that concatenates two strings
-* @s1 - first string
-* @s2 - second string
-* @n - part of s2
-* Return -concatenated string or NULL if fails
+* @s1: first string
+* @s2: second string
+* @n: part of s2
+* Return: concatenated string or NULL if fails
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
