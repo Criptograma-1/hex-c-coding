@@ -56,6 +56,15 @@
 * Why and when use malloc
 * How to use valgrind to check for memory leak
 
+### [0x0A-preprocessor][11] ###
+* What are macros and how to use them
+* What are the most common predefined macros
+* How to include guard your header files
+
+### [0x0B-more_malloc_free][12] ###
+* How to use the exit function
+* What are the functions calloc and realloc from the standard library and how to use them
+
 
 
 [1]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x00-hello_world/ "0x00"
@@ -68,3 +77,5 @@
 [8]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x07-recursion/ "0x07"
 [9]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x08-argc_argv/ "0x08"
 [10]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x09-malloc_free/ "0x09"
+[11]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x0A-preprocessor/ "0x0A"
+[12]: https://github.com/Criptograma-1/hex-c-coding/blob/main/0x0B-more_malloc_free/ "0x0B"
